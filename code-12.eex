@@ -1,0 +1,9 @@
+<article>
+  <header>
+    <h1><%= @post.title %></h1>
+    <address><%= @post.author %></address>
+  </header>
+  <section>
+    <%= @post.body %>
+  </section>
+</article>

@@ -1,0 +1,3 @@
+<section>
+  <%= render_markdown @post.body %>
+</section>
